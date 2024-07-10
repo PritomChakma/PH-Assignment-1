@@ -277,6 +277,8 @@
   background-repeat: no-repeat;
   background-position: center center;
   border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
 }
 .support-section-text {
   display: flex;
@@ -322,7 +324,6 @@
   width: 1140px;
   height: 36px;
   margin: 0 auto;
-
   margin-top: 112px;
   display: flex;
   justify-content: space-between;
@@ -343,12 +344,8 @@
   width: 157.01px;
   height: 36px;
   justify-content: space-around;
+  margin-left: 520px;
 }
-.dropbtn {
-  background-color: #3498db;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+#footer {
+  display: flex;
 }
