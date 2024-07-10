@@ -9,7 +9,7 @@
 
 /* 1st section start */
 .background {
-  width: 1440px;
+  max-width: 1320px;
   height: 652px;
   margin: 0 auto;
   background-image: url(../assets/Hero-bg.png);
@@ -342,4 +342,13 @@
   gap: 2px;
   width: 157.01px;
   height: 36px;
+  justify-content: space-around;
+}
+.dropbtn {
+  background-color: #3498db;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
